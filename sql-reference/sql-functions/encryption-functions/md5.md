@@ -18,7 +18,6 @@ VARCHAR md5(VARCHAR expr)
 
 校验和以32个十六进制数字组成的字符串表示，如果expr为NULL，返回结果为NULL
 
-
 ## 示例
 
 ```Plain Text
@@ -31,6 +30,6 @@ mysql> select md5('abc');
 1 row in set (0.01 sec)
 ```
 
-## 关键词 
+## 关键词
 
 MD5, ENCRYPTION

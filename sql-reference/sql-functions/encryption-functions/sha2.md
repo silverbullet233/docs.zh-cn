@@ -1,9 +1,8 @@
-# sha2 
+# sha2
 
 ## 功能
 
 计算SHA-2系列哈希函数(SHA-224/SHA-256/SHA-384/SHA-512)
-
 
 ## 语法
 
@@ -19,9 +18,8 @@ VARCHAR sha2(VARCHAR expr, INT hash_length)
 ## 返回值说明
 
 返回哈希函数的计算结果，如果两个参数任意一个为NULL, 结果返回NULL, 如果hash_lengh不在参数说明中的范围内，结果返回NULL
- 
 
-## 示例 
+## 示例
 
 ```Plain Text
 mysql> select sha2('abc',224);
@@ -49,6 +47,6 @@ mysql> select sha2('abc', 1),sha2('abc', null), sha2(null, 384);
 1 row in set (0.01 sec)
 ```
 
-## 关键词 
+## 关键词
 
 SHA2, ENCRYPTION

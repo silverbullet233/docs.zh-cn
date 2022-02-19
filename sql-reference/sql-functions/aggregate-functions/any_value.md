@@ -16,7 +16,6 @@
 
 在每个聚合后的分组中随机选择某行的结果返回，结果是不确定的
 
-
 ## 示例
 
 ```plain text
@@ -55,6 +54,6 @@ mysql> select c,any_value(a),sum(b) from any_value_test group by c;
 
 ```
 
-## 关键词 
+## 关键词
 
 ANY_VALUE

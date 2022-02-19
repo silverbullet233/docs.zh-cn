@@ -2,9 +2,9 @@
 
 ## 功能
 
-从数组中移除指定元素 
+从数组中移除指定元素
 
-## 语法 
+## 语法
 
 ```Haskell
 array_remove(any_array, any_element)
@@ -31,6 +31,6 @@ mysql> select array_remove([1,2,3,null,3], 3);
 1 row in set (0.01 sec)
 ```
 
-## 关键词 
+## 关键词
 
 ARRAY_REMOVE, ARRAY
