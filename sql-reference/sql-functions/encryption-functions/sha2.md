@@ -17,7 +17,7 @@ VARCHAR sha2(VARCHAR expr, INT hash_length)
 
 ## 返回值说明
 
-返回哈希函数的计算结果，如果两个参数任意一个为NULL, 结果返回NULL, 如果hash_lenght不在参数说明中的范围内，结果返回NULL
+返回哈希函数的计算结果，如果两个参数任意一个为NULL, 结果返回NULL, 如果hash_length不在参数说明中的范围内，结果返回NULL
 
 ## 示例
 
