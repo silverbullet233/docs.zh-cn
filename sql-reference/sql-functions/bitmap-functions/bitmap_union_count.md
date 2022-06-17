@@ -1,4 +1,4 @@
-# bitmap_union_count 
+# bitmap_union_count
 
 ## 功能
 
