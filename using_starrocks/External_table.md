@@ -428,7 +428,6 @@ StarRocks 支持对目标表进行谓词下推，把过滤条件推给目标表�
 | SMALLINT        | SMALLINT  |
 | INT             | INT       |
 | DATE            | DATETIME      |
-| DATETIME        | DATETIME  |
 | NUMBER          | DECIMAL   |
 
 #### **目标数据库为 PostgreSQL**
