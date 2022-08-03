@@ -423,13 +423,11 @@ StarRocks 支持对目标表进行谓词下推，把过滤条件推给目标表�
 | Oracle          | StarRocks |
 | --------------- | --------- |
 | CHAR            | CHAR      |
-| VARCHARVARCHAR2 | VARCHAR   |
+| VARCHAR/VARCHAR2 | VARCHAR   |
 | DATE            | DATE      |
 | SMALLINT        | SMALLINT  |
 | INT             | INT       |
-| BINARY_FLOAT    | FLOAT     |
-| BINARY_DOUBLE   | DOUBLE    |
-| DATE            | DATE      |
+| DATE            | DATETIME      |
 | DATETIME        | DATETIME  |
 | NUMBER          | DECIMAL   |
 
@@ -437,9 +435,9 @@ StarRocks 支持对目标表进行谓词下推，把过滤条件推给目标表�
 
 | PostgreSQL          | StarRocks |
 | ------------------- | --------- |
-| SMALLINTSMALLSERIAL | SMALLINT  |
-| INTEGERSERIAL       | INT       |
-| BIGINTBIGSERIAL     | BIGINT    |
+| SMALLINT/SMALLSERIAL | SMALLINT  |
+| INTEGER/SERIAL       | INT       |
+| BIGINT/BIGSERIAL     | BIGINT    |
 | BOOLEAN             | BOOLEAN   |
 | REAL                | FLOAT     |
 | DOUBLE PRECISION    | DOUBLE    |
@@ -454,18 +452,18 @@ StarRocks 支持对目标表进行谓词下推，把过滤条件推给目标表�
 
 | SQL Server        | StarRocks |
 | ----------------- | --------- |
-| BOOLEAN           | BOOLEAN   |
+| BIT           | BOOLEAN   |
 | TINYINT           | TINYINT   |
 | SMALLINT          | SMALLINT  |
 | INT               | INT       |
 | BIGINT            | BIGINT    |
-| FLOAT             | FLOAT     |
-| REAL              | DOUBLE    |
-| DECIMALNUMERIC    | DECIMAL   |
+| FLOAT             | FLOAT/DOUBLE     |
+| REAL              | FLOAT    |
+| DECIMAL/NUMERIC    | DECIMAL   |
 | CHAR              | CHAR      |
 | VARCHAR           | VARCHAR   |
 | DATE              | DATE      |
-| DATETIMEDATETIME2 | DATETIME  |
+| DATETIME/DATETIME2 | DATETIME  |
 
 ### 使用限制
 
