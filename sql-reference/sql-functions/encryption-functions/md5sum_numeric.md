@@ -1,4 +1,4 @@
-# md5sum
+# md5sum_numeric
 
 ## 功能
 
@@ -21,7 +21,7 @@ md5sum_numeric(expr,...);
 ## 示例
 
 ```Plain Text
-mysql> select md5sum("starrocks");
+mysql> select md5sum_numeric("starrocks");
 +-----------------------------------------+
 | md5sum_numeric('starrocks')             |
 +-----------------------------------------+
@@ -29,7 +29,7 @@ mysql> select md5sum("starrocks");
 +-----------------------------------------+
 1 row in set (0.01 sec)
 
-mysql> select md5sum("starrocks","star");
+mysql> select md5sum_numeric("starrocks","star");
 +-----------------------------------------+
 | md5sum_numeric('starrocks', 'star')     |
 +-----------------------------------------+
