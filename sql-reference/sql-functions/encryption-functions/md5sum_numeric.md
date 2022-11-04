@@ -7,7 +7,7 @@
 ## 语法
 
 ```Haskell
-md5sum_numeric(expr,...);
+LARGEINT md5sum_numeric(VARCHAR expr,...);
 ```
 
 ## 参数说明
